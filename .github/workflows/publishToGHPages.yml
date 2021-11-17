@@ -3,9 +3,6 @@ name: Publish to Github Pages
 on:
   push:
 
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -32,7 +29,7 @@ jobs:
       - name: Publish to GitHub pages
         if: github.ref == 'refs/heads/saga'
         run: |
-          echo "machine github.com login accesskey password ${{ secrets.TOKEN }}" > ~/.netrc
+          echo "machine github.com login accesskey password ${{ secrets.GITHUB_TOKEN }}" > ~/.netrc
           git config --global user.email "actions@example.com"
           git config --global user.name "GitHub Actions"
           cd assets
