@@ -23,6 +23,8 @@ jobs:
         run: npm ci --no-audit
       - name: Run Unit Tests
         run: npm test
+      - name: Compile TypeScript
+        run: npx tsc
       - name: Generate assets
         run: |
           mkdir assets
