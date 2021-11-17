@@ -1,0 +1,39 @@
+{
+  "app_id": "12345678-1234-1234-1234-12345678900003",
+  "app_name": "Bluetooth mesh: light",
+  "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+  "description": "The Bluetooth® mesh light sample demonstrates how to set up a mesh server model application, and control LEDs with Bluetooth mesh using the Generic OnOff models.",
+  "tags": ["mesh", "light", "led", "smart home"],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "release_notes": "Initial release",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "nRF Mesh for Android",
+          "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfmeshprovisioner"
+        },
+        {
+          "text": "nRF Mesh for iOS",
+          "url": "https://apps.apple.com/us/app/nrf-mesh/id1380726771"
+        },
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.7.0/nrf/samples/bluetooth/mesh/light/README.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "sample",
+              "file": "mesh_light_dfu_application.zip"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

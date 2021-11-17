@@ -1,0 +1,39 @@
+{
+  "app_id": "12345678-1234-1234-1234-12345678900004",
+  "app_name": "Bluetooth mesh: light switch",
+  "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+  "description": "The Bluetooth® mesh light switch sample can be used to change the state of light sources on other devices within the same mesh network. It also demonstrates how to use Bluetooth® mesh models by using the Generic OnOff Client model in an application.",
+  "tags": ["mesh", "light switch", "button", "smart home"],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "release_notes": "Initial release",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "nRF Mesh for Android",
+          "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfmeshprovisioner"
+        },
+        {
+          "text": "nRF Mesh for iOS",
+          "url": "https://apps.apple.com/us/app/nrf-mesh/id1380726771"
+        },
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.7.0/nrf/samples/bluetooth/mesh/light_switch/README.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "sample",
+              "file": "mesh_light_switch_dfu_application.zip"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "app_id": "12345678-1234-1234-1234-12345678900006",
+  "app_name": "Matter weather station",
+  "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+  "description": "This Matter weather station application demonstrates the usage of the Matter application layer to build a weather station device. Such a device lets you remotely gather different kinds of data using the device sensors, such as temperature, air pressure, and relative humidity. The device works as a Matter accessory device, meaning it can be paired and controlled remotely over a Matter network built on top of a low-power, 802.15.4 Thread network.",
+  "tags": ["matter", "chip", "weather station"],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "release_notes": "Initial release",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.7.0/nrf/applications/matter_weather_station/README.html"
+        },
+        {
+          "text": "Matter (Project CHIP)",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.7.0/nrf/ug_matter.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "ZDebug",
+              "file": "matter_machine_learning_dfu_application_zdebug.zip"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
