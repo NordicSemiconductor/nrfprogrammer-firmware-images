@@ -1,5 +1,6 @@
 {
-  "app_id": "12345678-1234-1234-1234-12345678900002",
+  "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+  "app_id": "0e68201e-845d-424b-b3c9-1665b4788ef1",
   "app_name": "Peripheral LBS",
   "user_id": "00005900-0000-1000-8000-00805F9B34FB",
   "description": "The Peripheral LBS sample demonstrates how to use the LED Button Service (LBS).",

@@ -1,5 +1,6 @@
 {
-  "app_id": "12345678-1234-1234-1234-12345678900004",
+  "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+  "app_id": "54d9d2a9-fc5c-4311-8acc-8b3f21ece318",
   "app_name": "Bluetooth mesh: light switch",
   "user_id": "00005900-0000-1000-8000-00805F9B34FB",
   "description": "The Bluetooth® mesh light switch sample can be used to change the state of light sources on other devices within the same mesh network. It also demonstrates how to use Bluetooth® mesh models by using the Generic OnOff Client model in an application.",

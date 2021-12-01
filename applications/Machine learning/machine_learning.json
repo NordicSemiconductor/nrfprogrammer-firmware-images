@@ -1,5 +1,6 @@
 {
-  "app_id": "12345678-1234-1234-1234-12345678900005",
+  "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+  "app_id": "f42ff902-45ca-4558-b8bc-4d9b798ee433",
   "app_name": "nRF Machine Learning",
   "user_id": "00005900-0000-1000-8000-00805F9B34FB",
   "description": "The nRF Machine Learning application is an out of the box reference design of an embedded machine learning using Edge Impulse. The application gathers data from sensors, forwards data to the Edge Impulse platform, and runs the machine learning model. It also displays results of the machine learning model on LEDs. The Edge Impulse platform collects data from sensors, trains machine learning model, and deploys the model to your Nordic Semiconductor’s device.",
