@@ -1,5 +1,6 @@
 {
-  "app_id": "12345678-1234-1234-1234-12345678900001",
+  "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+  "app_id": "cf08e89d-a6e2-4e6b-a35a-20c5273ec66d",
   "app_name": "Peripheral UART",
   "user_id": "00005900-0000-1000-8000-00805F9B34FB",
   "description": "The Peripheral UART sample demonstrates how to use the Nordic UART Service (NUS). It uses the NUS service to send data back and forth between a UART connection and a Bluetooth® LE connection, emulating a serial port over Bluetooth LE.",

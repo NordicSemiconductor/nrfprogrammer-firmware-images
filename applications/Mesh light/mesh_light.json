@@ -1,5 +1,6 @@
 {
-  "app_id": "12345678-1234-1234-1234-12345678900003",
+  "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+  "app_id": "d432882b-87cc-48bd-b858-c49c920d21f1",
   "app_name": "Bluetooth mesh: light",
   "user_id": "00005900-0000-1000-8000-00805F9B34FB",
   "description": "The Bluetooth® mesh light sample demonstrates how to set up a mesh server model application, and control LEDs with Bluetooth mesh using the Generic OnOff models.",

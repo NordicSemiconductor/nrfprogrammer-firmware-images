@@ -42,6 +42,25 @@ const manifest = path.join(process.cwd(), 'assets', 'manifest.json')
 console.log(manifest)
 fs.writeFileSync(
 	manifest,
-	JSON.stringify({ version: 1, applications }, null, 2),
+	JSON.stringify(
+		{
+			$schema:
+				'https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/manifest.schema.json',
+			version: 1,
+			applications,
+		},
+		null,
+		2,
+	),
 	'utf-8',
+)
+
+// Copy JSON schemas
+fs.copyFileSync(
+	path.join(process.cwd(), 'manifest.schema.json'),
+	path.join(process.cwd(), 'assets', 'manifest.schema.json'),
+)
+fs.copyFileSync(
+	path.join(process.cwd(), 'application.schema.json'),
+	path.join(process.cwd(), 'assets', 'application.schema.json'),
 )
