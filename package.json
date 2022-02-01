@@ -21,7 +21,7 @@
   "devDependencies": {
     "@nordicsemiconductor/asset-tracker-cloud-code-style": "10.0.7",
     "@types/jest": "27.4.0",
-    "@types/node": "16.11.21",
+    "@types/node": "16.11.22",
     "ajv": "8.9.0",
     "ajv-formats": "2.1.1",
     "ajv-keywords": "5.1.0",
