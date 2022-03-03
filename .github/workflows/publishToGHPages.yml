@@ -26,7 +26,7 @@ jobs:
           node dist/generate-assets.js
       - name: Run Unit Tests
         run: npm test
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: nrfprogrammer-firmware-images-${{ github.sha }}
           path: assets
