@@ -22,7 +22,7 @@
       ],
       "board": [
         {
-          "name": "Thingy:53",
+          "name": "thingy53_nrf5340",
           "build_config": [
             {
               "name": "release",
