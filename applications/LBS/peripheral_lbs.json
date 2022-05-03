@@ -21,7 +21,7 @@
         },
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.7.0/nrf/samples/bluetooth/peripheral_lbs/README.html"
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/samples/bluetooth/peripheral_lbs/README.html"
         }
       ],
       "board": [
@@ -29,8 +29,8 @@
           "name": "thingy53_nrf5340",
           "build_config": [
             {
-              "name": "sample",
-              "file": "peripheral_lbs_dfu_application.zip"
+              "name": "release",
+              "file": "peripheral_lbs_1.0.0_thingy53_nrf5340.zip"
             }
           ]
         }

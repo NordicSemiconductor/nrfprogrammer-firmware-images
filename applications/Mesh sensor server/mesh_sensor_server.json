@@ -1,10 +1,10 @@
 {
   "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
-  "app_id": "d432882b-87cc-48bd-b858-c49c920d21f1",
-  "app_name": "Bluetooth mesh: light",
+  "app_id": "3fb038be-b292-4452-a1cf-2e72298c6d1e",
+  "app_name": "Bluetooth mesh: sensor server",
   "user_id": "00005900-0000-1000-8000-00805F9B34FB",
-  "description": "The Bluetooth® mesh light sample demonstrates how to set up a mesh server model application, and control LEDs with Bluetooth mesh using the Generic OnOff models.",
-  "tags": ["mesh", "light", "led", "smart home"],
+  "description": "The Bluetooth® mesh sensor sample demonstrates how to set up a basic mesh Sensor Server model application that provides sensor data to one Sensor Client model. Four different sensor types are used to showcase different ways for the server to publish data. In addition, the sample demonstrates usage of both single-channel sensor types and sensor series types.",
+  "tags": ["mesh", "sensor", "temperature", "presence"],
   "versions": [
     {
       "version": "1.0.0",
@@ -21,7 +21,7 @@
         },
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/samples/bluetooth/mesh/light/README.html"
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/samples/bluetooth/mesh/sensor_server/README.html"
         }
       ],
       "board": [
@@ -30,7 +30,7 @@
           "build_config": [
             {
               "name": "release",
-              "file": "mesh_light_1.0.0_thingy53_nrf5340.zip"
+              "file": "mesh_sensor_server_1.0.0_thingy53_nrf5340.zip"
             }
           ]
         }

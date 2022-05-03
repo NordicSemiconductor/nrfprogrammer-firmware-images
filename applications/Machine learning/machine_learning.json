@@ -13,7 +13,7 @@
       "links": [
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.7.0/nrf/applications/machine_learning/README.html"
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/applications/machine_learning/README.html"
         }
       ],
       "board": [
@@ -21,8 +21,16 @@
           "name": "thingy53_nrf5340",
           "build_config": [
             {
-              "name": "sample",
-              "file": "machine_learning_dfu_application.zip"
+              "name": "release",
+              "file": "machine_learning_1.0.0_thingy53_nrf5340_zrelease.zip"
+            },
+            {
+              "name": "debug",
+              "file": "machine_learning_1.0.0_thingy53_nrf5340_zdebug.zip"
+            },
+            {
+              "name": "debug_rtt",
+              "file": "machine_learning_1.0.0_thingy53_nrf5340_zdebug_rtt.zip"
             }
           ]
         }
