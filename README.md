@@ -7,7 +7,7 @@ pages website for this repository.
 
 ## Updating the `manifest.json`
 
-Changes to `saga` will trigger a publication of the new `manifest.json` and the
+Adding a new tag will trigger a publication of the new `manifest.json` and the
 archive files to GitHub pages using the
 [`publishToGHPages` action](.github/workflows/publishToGHPages.yml) which runs
 the [`generate-assets.ts`](./generate-assets.ts) script.
@@ -18,3 +18,4 @@ the [`generate-assets.ts`](./generate-assets.ts) script.
 2. Add one or more files containing the installable firmware images.
 3. Document the application in a JSON document following the existing examples.
 4. Push the changes to `saga` directly, or create a PR.
+5. Create a release tag.
