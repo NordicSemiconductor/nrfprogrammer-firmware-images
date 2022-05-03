@@ -1,10 +1,10 @@
 {
   "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
-  "app_id": "54d9d2a9-fc5c-4311-8acc-8b3f21ece318",
-  "app_name": "Bluetooth mesh: light switch",
+  "app_id": "57133692-965b-4e53-b480-4dfbc27b6dbc",
+  "app_name": "Bluetooth mesh: light fixture",
   "user_id": "00005900-0000-1000-8000-00805F9B34FB",
-  "description": "The Bluetooth® mesh light switch sample can be used to change the state of light sources on other devices within the same mesh network. It also demonstrates how to use Bluetooth® mesh models by using the Generic OnOff Client model in an application.",
-  "tags": ["mesh", "light switch", "button", "smart home"],
+  "description": "The Bluetooth® mesh light fixture sample demonstrates how to set up a light control mesh server model application, and control a dimmable LED with Bluetooth mesh using the Generic OnOff models.",
+  "tags": ["mesh", "light fixture", "ctrl", "smart home"],
   "versions": [
     {
       "version": "1.0.0",
@@ -21,16 +21,16 @@
         },
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.7.0/nrf/samples/bluetooth/mesh/light_switch/README.html"
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/samples/bluetooth/mesh/light_ctrl/README.html"
         }
       ],
       "board": [
         {
-          "name": "thingy53_nrf5340",
+          "name": "Thingy:53",
           "build_config": [
             {
-              "name": "sample",
-              "file": "mesh_light_switch_dfu_application.zip"
+              "name": "release",
+              "file": "mesh_light_ctrl_1.0.0_thingy53_nrf5340.zip"
             }
           ]
         }
