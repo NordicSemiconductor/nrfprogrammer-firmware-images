@@ -20,7 +20,7 @@
   "homepage": "https://github.com/NordicSemiconductor/nrfprogrammer-firmware-images#readme",
   "devDependencies": {
     "@nordicsemiconductor/asset-tracker-cloud-code-style": "11.0.65",
-    "@types/jest": "27.5.0",
+    "@types/jest": "27.5.1",
     "@types/node": "16.11.34",
     "ajv": "8.11.0",
     "ajv-formats": "2.1.1",
