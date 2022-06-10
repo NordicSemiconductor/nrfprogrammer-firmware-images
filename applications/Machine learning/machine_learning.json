@@ -7,13 +7,13 @@
   "tags": ["machine learning", "edge impulse"],
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "release_notes": "Initial release",
       "requires_bonding": true,
       "links": [
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/applications/machine_learning/README.html"
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/nrf/applications/machine_learning/README.html"
         }
       ],
       "board": [
@@ -22,15 +22,15 @@
           "build_config": [
             {
               "name": "release",
-              "file": "machine_learning_1.0.0_thingy53_nrf5340_zrelease.zip"
+              "file": "machine_learning_2.0.0_thingy53_nrf5340_zrelease.zip"
             },
             {
               "name": "debug",
-              "file": "machine_learning_1.0.0_thingy53_nrf5340_zdebug.zip"
+              "file": "machine_learning_2.0.0_thingy53_nrf5340_zdebug.zip"
             },
             {
               "name": "debug_rtt",
-              "file": "machine_learning_1.0.0_thingy53_nrf5340_zdebug_rtt.zip"
+              "file": "machine_learning_2.0.0_thingy53_nrf5340_zdebug_rtt.zip"
             }
           ]
         }

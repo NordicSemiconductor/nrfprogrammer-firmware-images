@@ -7,17 +7,17 @@
   "tags": ["matter", "chip", "weather station"],
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "release_notes": "Initial release",
       "requires_bonding": false,
       "links": [
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/applications/matter_weather_station/README.html"
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/nrf/applications/matter_weather_station/README.html"
         },
         {
           "text": "Matter (Project CHIP)",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/ug_matter.html"
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/nrf/ug_matter.html"
         }
       ],
       "board": [
@@ -26,7 +26,7 @@
           "build_config": [
             {
               "name": "release",
-              "file": "matter_machine_learning_1.0.0_thingy53_nrf5340.zip"
+              "file": "matter_weather_station_2.0.0_thingy53_nrf5340.zip"
             }
           ]
         }
