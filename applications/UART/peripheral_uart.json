@@ -7,7 +7,7 @@
   "tags": ["nus", "uart"],
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "release_notes": "Initial release",
       "requires_bonding": false,
       "links": [
@@ -21,7 +21,7 @@
         },
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/samples/bluetooth/peripheral_uart/README.html"
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/nrf/samples/bluetooth/peripheral_uart/README.html"
         }
       ],
       "board": [
@@ -30,7 +30,7 @@
           "build_config": [
             {
               "name": "release",
-              "file": "peripheral_uart_1.0.0_thingy53_nrf5340.zip"
+              "file": "peripheral_uart_2.0.0_thingy53_nrf5340.zip"
             }
           ]
         }
