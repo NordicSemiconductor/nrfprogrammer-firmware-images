@@ -1,0 +1,407 @@
+{
+  "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/manifest.schema.json",
+  "version": 1,
+  "applications": [
+    {
+      "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+      "app_id": "960db7d8-7bcf-4c2b-86d3-9493459c8ead",
+      "app_name": "Edge Impulse",
+      "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+      "description": "Out of the box embedded machine learning application using Edge Impulse. The application gathers data from sensors, forwards data to the Edge Impulse platform, and runs the machine learning model. The Edge Impulse platform collects data from sensors, trains machine learning model, and deploys the model to the Thingy:53 using nRF Edge Impulse mobile app.",
+      "tags": [
+        "machine learning",
+        "edge impulse"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "release_notes": "Initial release",
+          "requires_bonding": false,
+          "links": [
+            {
+              "text": "nRF Edge Impulse for Android",
+              "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfei"
+            },
+            {
+              "text": "nRF Edge Impulse for iOS",
+              "url": "https://apps.apple.com/us/app/nrf-edge-impulse/id1557234087"
+            },
+            {
+              "text": "Edge Impulse",
+              "url": "https://edgeimpulse.com"
+            },
+            {
+              "text": "Edge Impulse Studio",
+              "url": "https://studio.edgeimpulse.com"
+            },
+            {
+              "text": "Edge Impulse Documentation",
+              "url": "https://docs.edgeimpulse.com"
+            }
+          ],
+          "board": [
+            {
+              "name": "thingy53_nrf5340",
+              "build_config": [
+                {
+                  "name": "release",
+                  "file": "edge_impulse_1.0.0_thingy53_nrf5340.zip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+      "app_id": "0e68201e-845d-424b-b3c9-1665b4788ef1",
+      "app_name": "Peripheral LBS",
+      "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+      "description": "The Peripheral LBS sample demonstrates how to use the LED Button Service (LBS).",
+      "tags": [
+        "lbs",
+        "led",
+        "button"
+      ],
+      "versions": [
+        {
+          "version": "2.0.0",
+          "release_notes": "Initial release",
+          "requires_bonding": false,
+          "links": [
+            {
+              "text": "nRF Blinky for Android",
+              "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfblinky"
+            },
+            {
+              "text": "nRF Blinky for iOS",
+              "url": "https://apps.apple.com/us/app/nrf-blinky/id1325014347"
+            },
+            {
+              "text": "Documentation",
+              "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/nrf/samples/bluetooth/peripheral_lbs/README.html"
+            }
+          ],
+          "board": [
+            {
+              "name": "thingy53_nrf5340",
+              "build_config": [
+                {
+                  "name": "release",
+                  "file": "peripheral_lbs_2.0.0_thingy53_nrf5340.zip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+      "app_id": "f42ff902-45ca-4558-b8bc-4d9b798ee433",
+      "app_name": "nRF Machine Learning",
+      "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+      "description": "The nRF Machine Learning application is an out of the box reference design of an embedded machine learning using Edge Impulse. The application gathers data from sensors, forwards data to the Edge Impulse platform, and runs the machine learning model. It also displays results of the machine learning model on LEDs. The Edge Impulse platform collects data from sensors, trains machine learning model, and deploys the model to your Nordic Semiconductor’s device.",
+      "tags": [
+        "machine learning",
+        "edge impulse"
+      ],
+      "versions": [
+        {
+          "version": "2.0.0",
+          "release_notes": "Initial release",
+          "requires_bonding": true,
+          "links": [
+            {
+              "text": "Documentation",
+              "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/nrf/applications/machine_learning/README.html"
+            }
+          ],
+          "board": [
+            {
+              "name": "thingy53_nrf5340",
+              "build_config": [
+                {
+                  "name": "release",
+                  "file": "machine_learning_2.0.0_thingy53_nrf5340_zrelease.zip"
+                },
+                {
+                  "name": "debug",
+                  "file": "machine_learning_2.0.0_thingy53_nrf5340_zdebug.zip"
+                },
+                {
+                  "name": "debug_rtt",
+                  "file": "machine_learning_2.0.0_thingy53_nrf5340_zdebug_rtt.zip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+      "app_id": "1841b550-889c-4cca-b506-7b3afc3291d3",
+      "app_name": "Matter weather station",
+      "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+      "description": "This Matter weather station application demonstrates the usage of the Matter application layer to build a weather station device. Such a device lets you remotely gather different kinds of data using the device sensors, such as temperature, air pressure, and relative humidity. The device works as a Matter accessory device, meaning it can be paired and controlled remotely over a Matter network built on top of a low-power, 802.15.4 Thread network.",
+      "tags": [
+        "matter",
+        "chip",
+        "weather station"
+      ],
+      "versions": [
+        {
+          "version": "2.0.0",
+          "release_notes": "Initial release",
+          "requires_bonding": false,
+          "links": [
+            {
+              "text": "Documentation",
+              "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/nrf/applications/matter_weather_station/README.html"
+            },
+            {
+              "text": "Matter (Project CHIP)",
+              "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/nrf/ug_matter.html"
+            }
+          ],
+          "board": [
+            {
+              "name": "thingy53_nrf5340",
+              "build_config": [
+                {
+                  "name": "release",
+                  "file": "matter_weather_station_2.0.0_thingy53_nrf5340.zip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+      "app_id": "d432882b-87cc-48bd-b858-c49c920d21f1",
+      "app_name": "Bluetooth mesh: light",
+      "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+      "description": "The Bluetooth® mesh light sample demonstrates how to set up a mesh server model application, and control LEDs with Bluetooth mesh using the Generic OnOff models.",
+      "tags": [
+        "mesh",
+        "light",
+        "led",
+        "smart home"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "release_notes": "Initial release",
+          "requires_bonding": false,
+          "links": [
+            {
+              "text": "nRF Mesh for Android",
+              "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfmeshprovisioner"
+            },
+            {
+              "text": "nRF Mesh for iOS",
+              "url": "https://apps.apple.com/us/app/nrf-mesh/id1380726771"
+            },
+            {
+              "text": "Documentation",
+              "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/samples/bluetooth/mesh/light/README.html"
+            }
+          ],
+          "board": [
+            {
+              "name": "thingy53_nrf5340",
+              "build_config": [
+                {
+                  "name": "release",
+                  "file": "mesh_light_1.0.0_thingy53_nrf5340.zip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+      "app_id": "57133692-965b-4e53-b480-4dfbc27b6dbc",
+      "app_name": "Bluetooth mesh: light fixture",
+      "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+      "description": "The Bluetooth® mesh light fixture sample demonstrates how to set up a light control mesh server model application, and control a dimmable LED with Bluetooth mesh using the Generic OnOff models.",
+      "tags": [
+        "mesh",
+        "light fixture",
+        "ctrl",
+        "smart home"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "release_notes": "Initial release",
+          "requires_bonding": false,
+          "links": [
+            {
+              "text": "nRF Mesh for Android",
+              "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfmeshprovisioner"
+            },
+            {
+              "text": "nRF Mesh for iOS",
+              "url": "https://apps.apple.com/us/app/nrf-mesh/id1380726771"
+            },
+            {
+              "text": "Documentation",
+              "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/samples/bluetooth/mesh/light_ctrl/README.html"
+            }
+          ],
+          "board": [
+            {
+              "name": "thingy53_nrf5340",
+              "build_config": [
+                {
+                  "name": "release",
+                  "file": "mesh_light_ctrl_1.0.0_thingy53_nrf5340.zip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+      "app_id": "54d9d2a9-fc5c-4311-8acc-8b3f21ece318",
+      "app_name": "Bluetooth mesh: light switch",
+      "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+      "description": "The Bluetooth® mesh light switch sample can be used to change the state of light sources on other devices within the same mesh network. It also demonstrates how to use Bluetooth® mesh models by using the Generic OnOff Client model in an application.",
+      "tags": [
+        "mesh",
+        "light switch",
+        "button",
+        "smart home"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "release_notes": "Initial release",
+          "requires_bonding": false,
+          "links": [
+            {
+              "text": "nRF Mesh for Android",
+              "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfmeshprovisioner"
+            },
+            {
+              "text": "nRF Mesh for iOS",
+              "url": "https://apps.apple.com/us/app/nrf-mesh/id1380726771"
+            },
+            {
+              "text": "Documentation",
+              "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/samples/bluetooth/mesh/light_switch/README.html"
+            }
+          ],
+          "board": [
+            {
+              "name": "thingy53_nrf5340",
+              "build_config": [
+                {
+                  "name": "release",
+                  "file": "mesh_light_switch_1.0.0_thingy53_nrf5340.zip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+      "app_id": "3fb038be-b292-4452-a1cf-2e72298c6d1e",
+      "app_name": "Bluetooth mesh: sensor server",
+      "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+      "description": "The Bluetooth® mesh sensor sample demonstrates how to set up a basic mesh Sensor Server model application that provides sensor data to one Sensor Client model. Four different sensor types are used to showcase different ways for the server to publish data. In addition, the sample demonstrates usage of both single-channel sensor types and sensor series types.",
+      "tags": [
+        "mesh",
+        "sensor",
+        "temperature",
+        "presence"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "release_notes": "Initial release",
+          "requires_bonding": false,
+          "links": [
+            {
+              "text": "nRF Mesh for Android",
+              "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfmeshprovisioner"
+            },
+            {
+              "text": "nRF Mesh for iOS",
+              "url": "https://apps.apple.com/us/app/nrf-mesh/id1380726771"
+            },
+            {
+              "text": "Documentation",
+              "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/samples/bluetooth/mesh/sensor_server/README.html"
+            }
+          ],
+          "board": [
+            {
+              "name": "thingy53_nrf5340",
+              "build_config": [
+                {
+                  "name": "release",
+                  "file": "mesh_sensor_server_1.0.0_thingy53_nrf5340.zip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+      "app_id": "cf08e89d-a6e2-4e6b-a35a-20c5273ec66d",
+      "app_name": "Peripheral UART",
+      "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+      "description": "The Peripheral UART sample demonstrates how to use the Nordic UART Service (NUS). It uses the NUS service to send data back and forth between a UART connection and a Bluetooth® LE connection, emulating a serial port over Bluetooth LE.",
+      "tags": [
+        "nus",
+        "uart"
+      ],
+      "versions": [
+        {
+          "version": "2.0.0",
+          "release_notes": "Initial release",
+          "requires_bonding": false,
+          "links": [
+            {
+              "text": "nRF Toolbox for Android",
+              "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrftoolbox"
+            },
+            {
+              "text": "nRF Toolbox for iOS",
+              "url": "https://apps.apple.com/us/app/nrf-toolbox/id820906058"
+            },
+            {
+              "text": "Documentation",
+              "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/nrf/samples/bluetooth/peripheral_uart/README.html"
+            }
+          ],
+          "board": [
+            {
+              "name": "thingy53_nrf5340",
+              "build_config": [
+                {
+                  "name": "release",
+                  "file": "peripheral_uart_2.0.0_thingy53_nrf5340.zip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
