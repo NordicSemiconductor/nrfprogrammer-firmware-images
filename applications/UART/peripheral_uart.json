@@ -8,7 +8,7 @@
   "versions": [
     {
       "version": "2.0.0",
-      "release_notes": "Initial release",
+      "release_notes": "Initial release, based on nRF Connect SDK version 2.0.",
       "requires_bonding": false,
       "links": [
         {
@@ -31,6 +31,36 @@
             {
               "name": "release",
               "file": "peripheral_uart_2.0.0_thingy53_nrf5340.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "2.3.0",
+      "release_notes": "- Fixed a possible memory leak in the uart_init() function.\n- Fixed the code build with the CONFIG_BT_NUS_SECURITY_ENABLED Kconfig option disabled.",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "nRF Toolbox for Android",
+          "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrftoolbox"
+        },
+        {
+          "text": "nRF Toolbox for iOS",
+          "url": "https://apps.apple.com/us/app/nrf-toolbox/id820906058"
+        },
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.3.0/nrf/samples/bluetooth/peripheral_uart/README.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "peripheral_uart_2.3.0_thingy53_nrf5340.zip"
             }
           ]
         }
