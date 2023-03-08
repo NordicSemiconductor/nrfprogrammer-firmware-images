@@ -8,7 +8,7 @@
   "versions": [
     {
       "version": "1.0.0",
-      "release_notes": "Initial release",
+      "release_notes": "Initial release, based on NCS 1.9.1.",
       "requires_bonding": false,
       "links": [
         {
@@ -31,6 +31,44 @@
             {
               "name": "release",
               "file": "mesh_light_ctrl_1.0.0_thingy53_nrf5340.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "2.3.0",
+      "release_notes": "- The specification-defined illuminance regulator now selects the CONFIG_FPU option by default.\n- Added a configuration with support for storing data with Emergency data storage.\n- Changed the sample to restore Light state after power-down.\n",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "nRF Mesh for Android",
+          "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfmeshprovisioner"
+        },
+        {
+          "text": "nRF Mesh for iOS",
+          "url": "https://apps.apple.com/us/app/nrf-mesh/id1380726771"
+        },
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.3.0/nrf/samples/bluetooth/mesh/light_ctrl/README.html"
+        },
+        {
+          "text": "Emergency data storage (EMDS)",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.3.0/nrf/libraries/others/emds.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release (settings)",
+              "file": "mesh_light_ctrl_2.3.0_thingy53_nrf5340.zip"
+            },
+            {
+              "name": "release (emds)",
+              "file": "mesh_light_ctrl_2.3.0_thingy53_nrf5340_emds.zip"
             }
           ]
         }
