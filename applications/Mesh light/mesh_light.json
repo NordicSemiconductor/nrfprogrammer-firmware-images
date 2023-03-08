@@ -8,7 +8,7 @@
   "versions": [
     {
       "version": "1.0.0",
-      "release_notes": "Initial release",
+      "release_notes": "- Enabled the CONFIG_SOC_FLASH_NRF_PARTIAL_ERASE Kconfig option.",
       "requires_bonding": false,
       "links": [
         {
