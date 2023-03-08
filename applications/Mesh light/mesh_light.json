@@ -35,6 +35,36 @@
           ]
         }
       ]
+    },
+    {
+      "version": "2.3.0",
+      "release_notes": "Initial release",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "nRF Mesh for Android",
+          "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfmeshprovisioner"
+        },
+        {
+          "text": "nRF Mesh for iOS",
+          "url": "https://apps.apple.com/us/app/nrf-mesh/id1380726771"
+        },
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.3.0/nrf/samples/bluetooth/mesh/light/README.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "mesh_light_2.3.0_thingy53_nrf5340.zip"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
