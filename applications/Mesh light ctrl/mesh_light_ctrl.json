@@ -38,7 +38,7 @@
     },
     {
       "version": "2.3.0",
-      "release_notes": "- The specification-defined illuminance regulator now selects the CONFIG_FPU option by default.\n- Added a configuration with support for storing data with Emergency data storage.\n- Changed the sample to restore Light state after power-down.\n",
+      "release_notes": "- Enabled the CONFIG_SOC_FLASH_NRF_PARTIAL_ERASE Kconfig option.\n- The specification-defined illuminance regulator now selects the CONFIG_FPU option by default.\n- Added a configuration with support for storing data with Emergency data storage.\n- Changed the sample to restore Light state after power-down.\n",
       "requires_bonding": false,
       "links": [
         {
