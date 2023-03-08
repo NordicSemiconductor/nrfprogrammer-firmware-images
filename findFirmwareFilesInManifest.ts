@@ -1,4 +1,4 @@
-type Build_config = { file: string }
+type Build_config = { name: string; file: string }
 type Board = { build_config: Build_config[] } & Record<string, any>
 type Version = { board: Board[] } & Record<string, any>
 export type Manifest = { versions: Version[] } & Record<string, any>
