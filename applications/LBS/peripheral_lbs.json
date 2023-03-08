@@ -35,6 +35,36 @@
           ]
         }
       ]
+    },
+    {
+      "version": "2.3.0",
+      "release_notes": "Version from NCS 2.3.0.",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "nRF Blinky for Android",
+          "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfblinky"
+        },
+        {
+          "text": "nRF Blinky for iOS",
+          "url": "https://apps.apple.com/us/app/nrf-blinky/id1325014347"
+        },
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.3.0/nrf/samples/bluetooth/peripheral_lbs/README.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "peripheral_lbs_2.3.0_thingy53_nrf5340.zip"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
