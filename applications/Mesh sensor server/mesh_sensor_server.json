@@ -8,7 +8,7 @@
   "versions": [
     {
       "version": "1.0.0",
-      "release_notes": "Initial release",
+      "release_notes": "Initial release based on NCS release 1.9.1",
       "requires_bonding": false,
       "links": [
         {
@@ -38,7 +38,7 @@
     },
     {
       "version": "2.3.0",
-      "release_notes": "NCS release version 2.3.0",
+      "release_notes": "- Enabled the CONFIG_SOC_FLASH_NRF_PARTIAL_ERASE Kconfig option.",
       "requires_bonding": false,
       "links": [
         {
