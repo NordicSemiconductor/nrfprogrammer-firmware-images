@@ -7,6 +7,32 @@
   "tags": ["matter", "chip", "weather station"],
   "versions": [
     {
+      "version": "2.3.0",
+      "release_notes": "Specific QR code and onboarding information in the documentation for each Matter sample, including Matter Weather Station.",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.3.0/nrf/applications/matter_weather_station/README.html"
+        },
+        {
+          "text": "Matter (Project CHIP)",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.3.0/nrf/ug_matter.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "matter_weather_station_2.3.0_thingy53_nrf5340.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "version": "2.0.0",
       "release_notes": "Initial release",
       "requires_bonding": false,
