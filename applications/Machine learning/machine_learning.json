@@ -7,6 +7,36 @@
   "tags": ["machine learning", "edge impulse"],
   "versions": [
     {
+      "version": "2.3.0",
+      "release_notes": "Removed the usage of `ml_runner_signin_event` from the application.",
+      "requires_bonding": true,
+      "links": [
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.3.0/nrf/applications/machine_learning/README.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "machine_learning_2.3.0_thingy53_nrf5340_zrelease.zip"
+            },
+            {
+              "name": "debug",
+              "file": "machine_learning_2.3.0_thingy53_nrf5340_zdebug.zip"
+            },
+            {
+              "name": "debug_rtt",
+              "file": "machine_learning_2.3.0_thingy53_nrf5340_zdebug_rtt.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "version": "2.0.0",
       "release_notes": "Initial release",
       "requires_bonding": true,
