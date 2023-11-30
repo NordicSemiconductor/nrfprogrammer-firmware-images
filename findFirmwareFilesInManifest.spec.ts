@@ -1,7 +1,9 @@
-import { findFirmwareFilesInManifest } from './findFirmwareFilesInManifest'
+import { findFirmwareFilesInManifest } from './findFirmwareFilesInManifest.js'
+import { describe, it } from 'node:test'
+import assert from 'node:assert/strict'
 
-describe('Find firmware files in manifest', () => {
-	it('should find all firmware zip-files in the manifest', () => {
+void describe('Find firmware files in manifest', () => {
+	void it('should find all firmware zip-files in the manifest', () => {
 		const files = findFirmwareFilesInManifest({
 			app_id: '12345678-1234-1234-1234-12345678900002',
 			app_name: 'Peripheral LBS',
@@ -76,9 +78,15 @@ describe('Find firmware files in manifest', () => {
 				},
 			],
 		})
-		expect(files).toHaveLength(3)
-		expect(files).toContain('peripheral_lbs_dfu_application.zip')
-		expect(files).toContain('peripheral_lbs_dfu_application_1.1.1.zip')
-		expect(files).toContain('peripheral_lbs_dfu_application_1.1.1.md')
+		assert.equal(files.length, 3)
+		assert.equal(files.includes('peripheral_lbs_dfu_application.zip'), true)
+		assert.equal(
+			files.includes('peripheral_lbs_dfu_application_1.1.1.zip'),
+			true,
+		)
+		assert.equal(
+			files.includes('peripheral_lbs_dfu_application_1.1.1.md'),
+			true,
+		)
 	})
 })

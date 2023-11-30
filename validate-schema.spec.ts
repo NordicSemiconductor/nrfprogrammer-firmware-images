@@ -3,6 +3,8 @@ import { readdirSync, readFileSync } from 'fs'
 import * as path from 'path'
 import addFormats from 'ajv-formats'
 import addKeywords from 'ajv-keywords'
+import { describe, it } from 'node:test'
+import assert from 'node:assert/strict'
 
 const ajv = new Ajv({
 	schemas: [
@@ -42,27 +44,26 @@ for (const application of readdirSync(applicationFolder)) {
 	])
 }
 
-describe('application manifests', () => {
-	it.each(applicationManifests)(
-		'%s manifest should validate',
-		async (_, source) => {
+void describe('application manifests', () => {
+	for (const [application, source] of applicationManifests) {
+		void it(`${application} manifest should validate`, async () => {
 			const validate = ajv.getSchema(
 				`https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json`,
 			)
-			expect(validate).toBeDefined()
+			assert.notEqual(validate, undefined)
 			const valid = await validate?.(source)
-			expect(validate?.errors).toBeNull()
-			expect(valid).toBeTruthy()
-		},
-	)
+			assert.equal(validate?.errors, null)
+			assert.equal(valid, true)
+		})
+	}
 })
 
-describe('manifest', () => {
-	it('should validate the combined manifest', async () => {
+void describe('manifest', () => {
+	void it('should validate the combined manifest', async () => {
 		const validate = ajv.getSchema(
 			`https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/manifest.schema.json`,
 		)
-		expect(validate).toBeDefined()
+		assert.notEqual(validate, undefined)
 		const valid = await validate?.(
 			JSON.parse(
 				readFileSync(
@@ -70,7 +71,7 @@ describe('manifest', () => {
 				).toString(),
 			),
 		)
-		expect(validate?.errors).toBeNull()
-		expect(valid).toBeTruthy()
+		assert.equal(validate?.errors, null)
+		assert.equal(valid, true)
 	})
 })
