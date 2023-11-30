@@ -1,0 +1,36 @@
+{
+  "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+  "app_id": "715c3879-68ea-4d66-bdb7-2b87479aec26",
+  "app_name": "Matter weather station - Wi-Fi",
+  "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+  "description": "This Matter weather station application demonstrates the usage of the Matter application layer to build a weather station device. Such a device lets you remotely gather different kinds of data using the device sensors, such as temperature, air pressure, and relative humidity. The device works as a Matter accessory device, meaning it can be paired and controlled remotely over a Matter network built on top of Wi-Fi network.\n\nThis application requires nRF7002 Expansion Board.",
+  "tags": ["matter", "chip", "weather station", "wifi"],
+  "versions": [
+    {
+      "version": "2.5.0",
+      "release_notes": "Initial release from NCS 2.5.0.",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.5.0/nrf/applications/matter_weather_station/README.html"
+        },
+        {
+          "text": "Matter (Project CHIP)",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.5.0/nrf/protocols/matter/index.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "matter_weather_station_nrf7002eb_2.5.0_thingy53.zip"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
