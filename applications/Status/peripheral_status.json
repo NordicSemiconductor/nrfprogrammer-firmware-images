@@ -1,0 +1,40 @@
+{
+  "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+  "app_id": "1a9e4d1c-d946-46ab-b97a-accc99d99309",
+  "app_name": "Peripheral Status",
+  "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+  "description": "The peripheral status sample demonstrates how to use the Nordic Status Message Service (NSMS) library.",
+  "tags": ["status", "nsms", "notifications"],
+  "versions": [
+    {
+      "version": "2.5.0",
+      "release_notes": "Initial release from NCS 2.5.0.",
+      "requires_bonding": true,
+      "links": [
+        {
+          "text": "nRF Connect for Mobile (Android)",
+          "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp"
+        },
+        {
+          "text": "nRF Connect for Mobile (iOS)",
+          "url": "https://apps.apple.com/pl/app/nrf-connect-for-mobile/id1054362403"
+        },
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.5.0/nrf/samples/bluetooth/peripheral_status/README.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "peripheral_status_2.5.0_thingy53_nrf5340.zip"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
