@@ -7,7 +7,7 @@
   "tags": ["machine learning", "edge impulse"],
   "versions": [
     {
-      "version": "2.4.0",
+      "version": "2.5.0",
       "release_notes": "Initial release",
       "requires_bonding": false,
       "links": [
@@ -38,7 +38,7 @@
           "build_config": [
             {
               "name": "release",
-              "file": "edge_impulse_wifi_2.4.0_thingy53_nrf5340.zip"
+              "file": "edge_impulse_nrf7002eb_2.5.0_thingy53_nrf5340.zip"
             }
           ]
         }
