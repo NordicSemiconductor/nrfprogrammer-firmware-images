@@ -8,7 +8,7 @@
   "versions": [
     {
       "version": "1.0.0",
-      "release_notes": "- Enabled the CONFIG_SOC_FLASH_NRF_PARTIAL_ERASE Kconfig option.",
+      "release_notes": "Initial release, based on NCS 1.9.1.",
       "requires_bonding": false,
       "links": [
         {
@@ -38,7 +38,7 @@
     },
     {
       "version": "2.3.0",
-      "release_notes": "Initial release",
+      "release_notes": "- Enabled the CONFIG_SOC_FLASH_NRF_PARTIAL_ERASE Kconfig option,\n- Max size of Proxy Filter list increased from 3 to 16.\n\nKnown issues:\n- Setting a publication may cause Thingy:53 to reboot.",
       "requires_bonding": false,
       "links": [
         {
@@ -61,6 +61,36 @@
             {
               "name": "release",
               "file": "mesh_light_2.3.0_thingy53_nrf5340.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "2.5.0",
+      "release_notes": "- Publications fixed,\n- Link layer payload size over GATT increased from 27 to maximum 37 to avoid fragmentation of outgoing messages to the proxy client.",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "nRF Mesh for Android",
+          "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfmeshprovisioner"
+        },
+        {
+          "text": "nRF Mesh for iOS",
+          "url": "https://apps.apple.com/us/app/nrf-mesh/id1380726771"
+        },
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.5.0/nrf/samples/bluetooth/mesh/light/README.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "mesh_light_2.5.0_thingy53_nrf5340.zip"
             }
           ]
         }
