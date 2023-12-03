@@ -7,7 +7,7 @@
   "tags": ["mesh", "light", "dimmer", "scenes", "smart home"],
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "2.5.0",
       "release_notes": "Initial release from NCS 2.5.0.",
       "requires_bonding": false,
       "links": [
