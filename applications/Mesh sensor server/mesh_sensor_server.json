@@ -38,7 +38,7 @@
     },
     {
       "version": "2.3.0",
-      "release_notes": "- Enabled the CONFIG_SOC_FLASH_NRF_PARTIAL_ERASE Kconfig option.",
+      "release_notes": "- Enabled the CONFIG_SOC_FLASH_NRF_PARTIAL_ERASE Kconfig option,\n- Max size of Proxy Filter list increased from 3 to 16.",
       "requires_bonding": false,
       "links": [
         {
@@ -61,6 +61,36 @@
             {
               "name": "release",
               "file": "mesh_sensor_server_2.3.0_thingy53_nrf5340.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "2.5.0",
+      "release_notes": "- Support for motion threshold as a setting for the presence detection,\n- Support for ambient light level sensor,\n- Link layer payload size over GATT increased from 27 to maximum 37 to avoid fragmentation of outgoing messages to the proxy client,\n- Support for Composition Data Pages 1 and 2 (Bluetooth mesh 1.1),\n- Fixed value of Time Since Presence Detected when delta would exceed the range.",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "nRF Mesh for Android",
+          "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfmeshprovisioner"
+        },
+        {
+          "text": "nRF Mesh for iOS",
+          "url": "https://apps.apple.com/us/app/nrf-mesh/id1380726771"
+        },
+        {
+          "text": "Documentation",
+          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.5.0/nrf/samples/bluetooth/mesh/sensor_server/README.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "mesh_sensor_server_2.5.0_thingy53_nrf5340.zip"
             }
           ]
         }
