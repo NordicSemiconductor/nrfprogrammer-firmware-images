@@ -30,7 +30,7 @@
     "eslint-plugin-import": "2.29.0",
     "eslint-plugin-prefer-arrow": "1.2.3",
     "tsx": "4.6.2",
-    "typescript": "5.3.2"
+    "typescript": "5.3.3"
   },
   "lint-staged": {
     "*.{md,json,yaml,yml}": [
