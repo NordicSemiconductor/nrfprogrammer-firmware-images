@@ -19,19 +19,14 @@
   },
   "homepage": "https://github.com/NordicSemiconductor/nrfprogrammer-firmware-images#readme",
   "devDependencies": {
+    "@bifravst/eslint-config-typescript": "6.0.4",
     "@bifravst/prettier-config": "1.0.0",
-    "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "17.0.0",
     "@types/node": "20.11.19",
-    "@typescript-eslint/eslint-plugin": "7.0.2",
     "ajv": "8.12.0",
     "ajv-formats": "2.1.1",
     "ajv-keywords": "5.1.0",
-    "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-prefer-arrow": "1.2.3",
     "husky": "9.0.11",
-    "tsx": "4.7.1",
-    "typescript": "5.3.3"
+    "tsx": "4.7.1"
   },
   "lint-staged": {
     "*.{md,json,yaml,yml}": [
@@ -39,7 +34,7 @@
     ],
     "*.{ts,tsx}": [
       "prettier --write",
-      "eslint --ext .js,.ts"
+      "eslint"
     ]
   },
   "prettier": "@bifravst/prettier-config"

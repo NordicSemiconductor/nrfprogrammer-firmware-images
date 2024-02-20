@@ -10,8 +10,8 @@ console.log(
     // relative URL from manifest.json
     "peripheral_lbs_dfu_application.zip",
     // Absolute URL as base
-    "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/manifest.json"
-  ).href
+    "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/manifest.json",
+  ).href,
 );
 // https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/peripheral_lbs_dfu_application.zip
 ```
