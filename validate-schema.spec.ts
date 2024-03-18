@@ -1,8 +1,11 @@
-import Ajv from 'ajv'
+import ajvLib from 'ajv'
+const Ajv = ajvLib.default
 import { readdirSync, readFileSync } from 'fs'
 import * as path from 'path'
-import addFormats from 'ajv-formats'
-import addKeywords from 'ajv-keywords'
+import addFormatsLib from 'ajv-formats'
+const addFormats = addFormatsLib.default
+import addKeywordsLib from 'ajv-keywords'
+const addKeywords = addKeywordsLib.default
 import { describe, it } from 'node:test'
 import assert from 'node:assert/strict'
 
